@@ -1,6 +1,6 @@
 # vue-demo
 
-> A Vue.js project
+> 使用vue-cli和iview ui尝试构建一个前端模版
 
 ## Build Setup
 
