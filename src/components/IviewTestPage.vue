@@ -6,7 +6,6 @@
 </template>
 
 <script>
-import {Button} from 'iview'
 
 export default {
   name: 'IviewTestPage',
@@ -14,9 +13,6 @@ export default {
     return {
 
     }
-  },
-  components: {
-    Button
   }
 }
 </script>

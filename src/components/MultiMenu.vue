@@ -12,13 +12,6 @@
             <MenuItem name="1-1">Option 1</MenuItem>
             <MenuItem name="1-2">Option 2</MenuItem>
             <MenuItem name="1-3">Option 3</MenuItem>
-            <Submenu name="12">
-              <template slot="title2">
-                <Icon type="ios-navigate"></Icon>
-                Item2
-              </template>
-              <MenuItem name="13-">Option 3</MenuItem>
-            </Submenu>
           </Submenu>
           <Submenu name="2">
             <template slot="title">
@@ -59,21 +52,8 @@
 </template>
 
 <script>
-  import {Row, Col, Menu, Submenu, MenuItem, Icon, Button, Breadcrumb, BreadcrumbItem} from 'iview'
-
   export default {
-    name: 'MultiMenu',
-    components: {
-      Row,
-      Col,
-      Menu,
-      Submenu,
-      MenuItem,
-      Icon,
-      Button,
-      Breadcrumb,
-      BreadcrumbItem
-    }
+    name: 'MultiMenu'
   }
 </script>
 

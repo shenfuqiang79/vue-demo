@@ -43,8 +43,6 @@
 </template>
 
 <script>
-  import {Row, Col, Menu, MenuItem, Icon, Button, Breadcrumb, BreadcrumbItem} from 'iview'
-
   export default {
 
     name: 'Skeleton',
@@ -70,16 +68,6 @@
           this.spanRight = 19
         }
       }
-    },
-    components: {
-      Row: Row,
-      Col: Col,
-      Menu: Menu,
-      MenuItem: MenuItem,
-      Icon: Icon,
-      Button: Button,
-      Breadcrumb: Breadcrumb,
-      BreadcrumbItem: BreadcrumbItem
     }
   }
 </script>
