@@ -43,8 +43,5 @@ new Vue({
   router,
   store,
   template: '<App/>',
-  components: {App},
-  mounted () {
-    this.$store.commit('updateMenulist')
-  }
+  components: {App}
 })

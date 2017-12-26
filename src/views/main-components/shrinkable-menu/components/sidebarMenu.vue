@@ -43,7 +43,6 @@
     },
     methods: {
       changeMenu (active) {
-        console.log(active)
         this.$emit('on-change', active)
       },
       itemTitle (item) {

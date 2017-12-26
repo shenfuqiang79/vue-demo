@@ -8,7 +8,7 @@
   export default {
     name: 'page',
     mounted () {
-      console.log(this.$route.params)
+
     }
   }
 </script>

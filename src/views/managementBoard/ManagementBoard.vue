@@ -73,8 +73,8 @@
         })
       }
     },
-    mounted () {
-      // this.$store.commit('updateMenulist')
+    beforeMount () {
+      this.$store.commit('updateMenulist')
       this.init()
     }
   }

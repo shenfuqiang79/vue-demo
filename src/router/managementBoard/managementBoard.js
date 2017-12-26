@@ -41,7 +41,7 @@ export const page = {
     {
       path: 'index',
       title: 'Page',
-      name: 'page_index',
+      name: 'index',
       component: resolve => {
         require(['@/views/page/page.vue'], resolve)
       }
